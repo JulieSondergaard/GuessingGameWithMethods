@@ -18,7 +18,7 @@ namespace GuessingGame
         }
         public static void GetGuessingGame()
         {
-        int secretNumber = random.Next(0, 100);
+        int secretNumber = random.Next(1, 101);
         int numberOfTrials = 0;
 
         Console.WriteLine("Can you guess what number between 0 and 100 I am thinking of :-)");
